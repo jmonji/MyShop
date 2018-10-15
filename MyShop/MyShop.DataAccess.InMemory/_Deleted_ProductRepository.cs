@@ -8,12 +8,12 @@ using System.Runtime.Caching;
 
 namespace MyShop.DataAccess.InMemory
 {
-    public class ProductRepository
+    public class _Deleted_ProductRepository
     {
         ObjectCache cache = MemoryCache.Default;
         List<Product> products;
 
-        public ProductRepository()
+        public _Deleted_ProductRepository()
         {
             products = cache["products"] as List<Product>;
             if (products == null)
