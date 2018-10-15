@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using MyShop.DataAccess.InMemory;
 using MyShop.Core.Models;
 using MyShop.Core.ViewModels;
-using MyShop.Core.Contract;
+using MyShop.Core.Contracts;
 
 namespace MyShop.WebUI.Controllers
 {
