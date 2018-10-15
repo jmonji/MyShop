@@ -12,6 +12,7 @@ namespace MyShop.WebUI.Tests.Controllers
     [TestClass]
     public class HomeControllerTest
     {
+        /*
         [TestMethod]
         public void Index()
         {
@@ -49,6 +50,6 @@ namespace MyShop.WebUI.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-        }
+        }*/
     }
 }
