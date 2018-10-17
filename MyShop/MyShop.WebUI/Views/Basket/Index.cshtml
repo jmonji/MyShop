@@ -30,7 +30,7 @@
     {
         <tr>
             <td>
-                <img class="img" height="50px" src="~/Content/ProductImages/@item.Image" />
+                <img class="img" height="50" src="~/Content/ProductImages/@item.Image" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ProductName)
@@ -56,6 +56,7 @@
         <td>
             @string.Format("{0:C}", (from p in Model select p.Price * p.Quantity).Sum())
         </td>
+        <td><a href="@Url.Action("Checkout","Basket")">Checkout</a></td>
     </tr>
 
 </table>
